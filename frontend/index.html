@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Elephant - Technical Test</title>
+    <!-- Vincula a folha de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Contêiner principal que envolve toda a aplicação -->
+    <div class="container">
+        <!-- Seção de abas para navegar entre o chat e o feedback -->
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab('chat')">Agent Chat</button>
+            <button class="tab-button" onclick="openTab('feedback')">Feedback and Improvement</button>
+        </div>
+
+        <!-- Conteúdo da aba de Chat -->
+        <div id="chat" class="tab-content active">
+            <!-- Histórico de mensagens do chat -->
+            <div class="chat-history" id="chat-history"></div>
+            <!-- Entrada de mensagem do usuário -->
+            <div class="chat-input">
+                <textarea id="message-input" placeholder="Type your message..."></textarea>
+                <button id="send-button" onclick="sendMessage()">Send</button>
+            </div>
+            <!-- Indicador de carregamento -->
+            <div class="loading" id="loading"></div>
+        </div>
+
+        <!-- Conteúdo da aba de Feedback -->
+        <div id="feedback" class="tab-content">
+            <!-- Exibição do prompt de sistema atual -->
+            <div class="prompt-display">
+                <h3>Current System Prompt:</h3>
+                <p id="current-prompt">Loading...</p>
+            </div>
+            <!-- Formulário para enviar feedback -->
+            <div class="feedback-form">
+                <h3>Feedback:</h3>
+                <textarea id="feedback-input" placeholder="Provide feedback on the last response..."></textarea>
+                <button onclick="sendFeedback()">Send Feedback</button>
+            </div>
+            <!-- Histórico de prompts e feedbacks -->
+            <div class="history">
+                <h3>Prompt and Feedback History:</h3>
+                <ul id="feedback-history"></ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vincula o arquivo de script JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>

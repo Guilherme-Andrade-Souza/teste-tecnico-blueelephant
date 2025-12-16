@@ -1,0 +1,73 @@
+# Este arquivo serve como a base de conhecimento sobre a história do Brasil para o agente GeoTravel.
+# O conteúdo é carregado na Vector Store (ChromaDB) para permitir que a IA responda a perguntas
+# sobre eventos históricos, períodos e dinâmicas sociais do país.
+
+1. Período Pré-Colonial (Antes de 1500)
+Caracterizado pela ocupação do território por povos indígenas.
+
+Organização: Diversidade de etnias (Tupi, Guarani, Jê, etc.) sem um Estado unificado.
+
+Economia: Subsistência (caça, pesca, agricultura de coivara) e trocas (escambo).
+
+2. Brasil Colônia (1500 – 1822)
+O território torna-se parte do sistema mercantilista português.
+
+Ciclo do Pau-Brasil (1500–1530): Extração predatória e feitorias costeiras.
+
+Ciclo do Açúcar (Séc. XVI e XVII): Implantação das Capitanias Hereditárias e Governo Geral. Baseado no plantation (latifúndio, monocultura e escravidão africana).
+
+Expansão Territorial: Entradas e Bandeiras expandem as fronteiras para além do Tratado de Tordesilhas.
+
+Ciclo do Ouro (Séc. XVIII): Deslocamento do eixo econômico do Nordeste para o Sudeste (Minas Gerais). Aumento da fiscalização da Coroa e urbanização.
+
+Período Joanino (1808–1821): A chegada da Família Real Portuguesa abre os portos e cria infraestrutura burocrática, preparando o terreno para a independência.
+
+3. Brasil Império (1822 – 1889)
+Formação do Estado Nacional Brasileiro sob uma monarquia constitucional.
+
+Primeiro Reinado (1822–1831): D. Pedro I. Instabilidade política e autoritarismo (Constituição de 1824).
+
+Período Regencial (1831–1840): Vácuo de poder e revoltas provinciais (Cabanagem, Farroupilha, Sabinada). Risco de fragmentação territorial.
+
+Segundo Reinado (1840–1889): D. Pedro II. Estabilidade política e ascensão do Ciclo do Café.
+
+Guerra do Paraguai (1864–1870): Fortalecimento do Exército como ator político.
+
+Abolição da Escravatura (1888): Fim do sistema escravista (Lei Áurea), minando o apoio dos latifundiários à monarquia.
+
+4. Brasil República (1889 – Presente)
+Transição para o sistema republicano federativo.
+
+República Velha (1889–1930):
+
+Domínio das oligarquias agrárias (política do "café com leite" - SP e MG).
+
+Coronelismo e voto de cabresto.
+
+Era Vargas (1930–1945):
+
+Centralização do poder e fomento à industrialização de base.
+
+Criação das leis trabalhistas (CLT).
+
+Estado Novo (1937–1945): Ditadura de Getúlio Vargas.
+
+República Populista (1946–1964):
+
+Redemocratização e desenvolvimentismo (Juscelino Kubitschek e a construção de Brasília).
+
+Instabilidade política no governo Jânio/Jango.
+
+Ditadura Militar (1964–1985):
+
+Regime autoritário, censura e repressão política.
+
+"Milagre Econômico" seguido de crise inflacionária e endividamento externo.
+
+Nova República (1985 – Presente):
+
+Redemocratização e Constituição de 1988 ("Constituição Cidadã").
+
+Estabilização econômica com o Plano Real (1994).
+
+Alternância de poder e polarização política recente.

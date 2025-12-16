@@ -1,0 +1,17 @@
+
+# Main dependencies for the project
+fastapi
+uvicorn
+python-dotenv
+httpx
+# Núcleo do LangChain (Série 0.2.x permitindo atualizações de patch)
+langchain>=0.2.15,<0.3.0
+langchain-community>=0.2.14,<0.3.0
+langchain-core>=0.2.33,<0.3.0
+langchain-google-genai
+# Banco de Dados
+langchain-chroma
+chromadb
+# Outros
+pydantic
+requests

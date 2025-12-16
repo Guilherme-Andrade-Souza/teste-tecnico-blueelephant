@@ -1,0 +1,21 @@
+services:
+  geotravel-api:
+    # Constrói a imagem usando o Dockerfile da pasta atual
+    build: . 
+    container_name: geotravel_container
+    
+    # Mapeamento de Portas: "Porta do PC : Porta do Container"
+    ports:
+      - "8000:8000"
+    
+    # Injeta as variáveis do seu arquivo .env local para dentro do container
+    env_file:
+      - .env
+    
+    # Persistência de Dados (Volumes)
+    # Garante que o banco de dados ChromaDB não suma quando você reiniciar o container
+    volumes:
+      - ./chroma_db:/app/chroma_db
+    
+    # Política de reinício (opcional, bom para servidores)
+    restart: unless-stopped
